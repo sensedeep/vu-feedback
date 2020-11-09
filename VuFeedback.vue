@@ -1,3 +1,8 @@
+<!--
+    vu-feedback --
+
+    Copyright (c) SenseDeep. All Rights Reserved.
+-->
 <template>
     <div class="feedback" v-on-click.stop="away">
         <span :class="severityStyle">{{message}}</span>
